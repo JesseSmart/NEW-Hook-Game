@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Terrain
+  - Grapple Point
+  - GROUND
+  - Death Area Tag
+  - Finish Line
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - terrain
+  - rope
+  - Grapple Point
+  - Ground Layer
+  - DEATH AREA LAYER
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Stage Objects
+    uniqueID: 1786099893
+    locked: 0
+  - name: New Layer
+    uniqueID: 3750112435
+    locked: 0

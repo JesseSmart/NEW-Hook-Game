@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: ec0382dd3cc065547894cbfb5b2819e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4407987727998880716
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_0
+  - first:
+      213: -1449122671473065613
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_11
+  - first:
+      213: -8351409266530915949
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_14
+  - first:
+      213: 4500641837929611791
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_21
+  - first:
+      213: 4892970703831646750
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_37
+  - first:
+      213: -9067343986731243249
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_44
+  - first:
+      213: -1525946218401553985
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_48
+  - first:
+      213: 8016478885248390625
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_49
+  - first:
+      213: -8695261631440634909
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_58
+  - first:
+      213: -8311667946371931247
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_63
+  - first:
+      213: -3540383208006751649
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_68
+  - first:
+      213: 771751461945833236
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_69
+  - first:
+      213: 1850038819429724554
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_70
+  - first:
+      213: 8636415364349502018
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_71
+  - first:
+      213: -5290646618336078414
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_72
+  - first:
+      213: 7012391614060198344
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_75
+  - first:
+      213: -6013366093994975905
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_77
+  - first:
+      213: -3059077937425882598
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_81
+  - first:
+      213: 7520173345034019401
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_82
+  - first:
+      213: 4346534196476365933
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_84
+  - first:
+      213: 7627056376858925202
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_95
+  - first:
+      213: 2306159272276894419
+    second: Menu Buttons Sprite Sheet 1.2 Transparent_96
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2489
+        width: 1034
+        height: 233
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f481d656e2206646b160f50d644eb05
+      internalID: 4407987727998880716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 2499
+        width: 1830
+        height: 241
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43e899c90a1cb646ba182e59068b6f5
+      internalID: -1449122671473065613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2148
+        width: 1455
+        height: 234
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b221e812f19d34e9d03fdf41e88e7a
+      internalID: -8351409266530915949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_21
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 2128
+        width: 2746
+        height: 258
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6accfd62766cb3c4aa49c4d37e909578
+      internalID: 4500641837929611791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1788
+        width: 1440
+        height: 233
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6711b913458d0bc46bbc21e5a4e7235b
+      internalID: 4892970703831646750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_44
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1727
+        width: 1643
+        height: 236
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bd0546364753c478370123d8e728ab
+      internalID: -9067343986731243249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1427
+        width: 1003
+        height: 236
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f636c4ab703c2941ae651d60bec1cbe
+      internalID: -1525946218401553985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_49
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1359
+        width: 2520
+        height: 242
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2656f0d0dae7845b1e98c96cc60c81
+      internalID: 8016478885248390625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1049
+        width: 1631
+        height: 233
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ae730308f88ba44bf977a9e8539f4e
+      internalID: -8695261631440634909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_63
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 964
+        width: 852
+        height: 233
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5d137d961d51c4c9491c2f0ef4dcdd
+      internalID: -8311667946371931247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_68
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 988
+        width: 831
+        height: 233
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369ff7f52ae7494ea2959f42abdf4a0
+      internalID: -3540383208006751649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 708
+        width: 203
+        height: 214
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc8c5393b290084ba10cccdc0ad075c
+      internalID: 771751461945833236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_70
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 708
+        width: 206
+        height: 214
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad04038151a55c443a31cc474d7f8fbc
+      internalID: 1850038819429724554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_71
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 678
+        width: 244
+        height: 234
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b8404b12c2491458a529fa46c29746
+      internalID: 8636415364349502018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_72
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 678
+        width: 243
+        height: 234
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893fa0b5d81d95047a1eb2aeb4596992
+      internalID: -5290646618336078414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_75
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 607
+        width: 1013
+        height: 236
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4d30a4799309f419f00365df1bc879
+      internalID: 7012391614060198344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_77
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 617
+        width: 1060
+        height: 236
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30ff6912b9db954eb855d8e1af4f9b8
+      internalID: -6013366093994975905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_81
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 358
+        width: 213
+        height: 203
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d7a097d9899b740922627cc9d294bd
+      internalID: -3059077937425882598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_82
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 348
+        width: 234
+        height: 244
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f0da536c5407543a2a1e4f4c699b15
+      internalID: 7520173345034019401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_84
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 249
+        width: 3326
+        height: 233
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0433b2304bf68db4786a4b4495499c11
+      internalID: 4346534196476365933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_95
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 79
+        width: 213
+        height: 203
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a9fe953a0aa324e93bfe2a5696a543
+      internalID: 7627056376858925202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons Sprite Sheet 1.2 Transparent_96
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 0
+        width: 234
+        height: 241
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9d5be2134175842bbf6cb40c8d5e14
+      internalID: 2306159272276894419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

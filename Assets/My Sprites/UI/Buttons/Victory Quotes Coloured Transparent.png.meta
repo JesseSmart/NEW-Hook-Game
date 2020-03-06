@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: b98bc05b94a676e4196cdaee3ee959bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4739582309004367297
+    second: Victory Quotes Coloured Transparent_0
+  - first:
+      213: 3856612254185818266
+    second: Victory Quotes Coloured Transparent_10
+  - first:
+      213: 6679960009693078873
+    second: Victory Quotes Coloured Transparent_24
+  - first:
+      213: -1003322208622770170
+    second: Victory Quotes Coloured Transparent_30
+  - first:
+      213: -9033889254841340929
+    second: Victory Quotes Coloured Transparent_39
+  - first:
+      213: -3082777287875145926
+    second: Victory Quotes Coloured Transparent_44
+  - first:
+      213: -5260389977187351735
+    second: Victory Quotes Coloured Transparent_65
+  - first:
+      213: -8829614907539474115
+    second: Victory Quotes Coloured Transparent_69
+  - first:
+      213: 3023122741663403671
+    second: Victory Quotes Coloured Transparent_80
+  - first:
+      213: -547092578616409080
+    second: Victory Quotes Coloured Transparent_91
+  - first:
+      213: -3881829362103441681
+    second: Victory Quotes Coloured Transparent_101
+  - first:
+      213: 4064780687338448923
+    second: Victory Quotes Coloured Transparent_115
+  - first:
+      213: 4736417521848099501
+    second: Victory Quotes Coloured Transparent_124
+  - first:
+      213: -3190629996263935716
+    second: Victory Quotes Coloured Transparent_134
+  - first:
+      213: -4763375568850283479
+    second: Victory Quotes Coloured Transparent_141
+  - first:
+      213: -6114856254049523718
+    second: Victory Quotes Coloured Transparent_148
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3017
+        width: 1831
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2771c9e610ee5d499b8390471e442df
+      internalID: -4739582309004367297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2618
+        width: 3295
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80940172a68b1fb47b255a905a109800
+      internalID: 3856612254185818266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_24
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 2629
+        width: 1186
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfa098b532909c43850be6bb493df2e
+      internalID: 6679960009693078873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_30
+      rect:
+        serializedVersion: 2
+        x: 5387
+        y: 2665
+        width: 1203
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c4263ebe5c494fbe473211b321db8
+      internalID: -1003322208622770170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_39
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2186
+        width: 1001
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00776452ced945c4c86cee53b678d28a
+      internalID: -9033889254841340929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_44
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 2208
+        width: 3300
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd03dc582235a84faf065a1fdc96acf
+      internalID: -3082777287875145926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_65
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 2225
+        width: 2222
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a949be74d623de458509940065e731f
+      internalID: -5260389977187351735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_69
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1547
+        width: 3302
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077c9600e1681047808d90079bdc17a
+      internalID: -8829614907539474115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_80
+      rect:
+        serializedVersion: 2
+        x: 4069
+        y: 1549
+        width: 1631
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277b5c3708a014b4584eae76de5d70c6
+      internalID: 3023122741663403671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_91
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1036
+        width: 2654
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095f660d3c9cd9d41ad56b699e360381
+      internalID: -547092578616409080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_101
+      rect:
+        serializedVersion: 2
+        x: 4146
+        y: 1197
+        width: 3083
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3119555dde0834fa9c9ee51b5f8e62
+      internalID: -3881829362103441681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_115
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 816
+        width: 2257
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59b3642dd7d9c049b27b3fdcb5a0eb3
+      internalID: 4064780687338448923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_124
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 655
+        width: 2460
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa81a518bb6ebd4489d7157f2a8b014
+      internalID: 4736417521848099501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_134
+      rect:
+        serializedVersion: 2
+        x: 4156
+        y: 498
+        width: 1422
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d137bae199c9e47859f34619036c88
+      internalID: -3190629996263935716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_141
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 227
+        width: 1416
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a811407e503a21a40b7a74990f1ca9b2
+      internalID: -4763375568850283479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory Quotes Coloured Transparent_148
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 216
+        width: 1823
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b429e4d5f4b4a2a44a4e9274cae12772
+      internalID: -6114856254049523718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
