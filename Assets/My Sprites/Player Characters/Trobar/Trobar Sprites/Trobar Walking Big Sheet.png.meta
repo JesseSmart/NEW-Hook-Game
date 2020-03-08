@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 3bf96d04dc58b394a9904b472cce2b56
+guid: 8c4031b905d7d344c87a616e14de2857
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2548541514489256506
-    second: Trobar Idle Sprite Sheet_0
+      213: -6829145075545416780
+    second: Trobar Walking Big Sheet_0
   - first:
-      213: -1246697930431870317
-    second: Trobar Idle Sprite Sheet_1
+      213: 3815382346873641910
+    second: Trobar Walking Big Sheet_1
   - first:
-      213: 3166034152072807291
-    second: Trobar Idle Sprite Sheet_2
+      213: -6887735194280937931
+    second: Trobar Walking Big Sheet_2
   - first:
-      213: 5099004709148212975
-    second: Trobar Idle Sprite Sheet_3
-  - first:
-      213: 1468611644395281639
-    second: Trobar Idle Sprite Sheet_4
-  - first:
-      213: 2353960576989212784
-    second: Trobar Idle Sprite Sheet_5
+      213: 4422397521426130147
+    second: Trobar Walking Big Sheet_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trobar Idle Sprite Sheet_0
+      name: Trobar Walking Big Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 9
-        height: 21
+        width: 90
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fd4b92d8f3c24047bf99070419fd6f0
-      internalID: -2548541514489256506
+      spriteID: 8dd4cab9f80bbe44e9ca8b30c5341e86
+      internalID: -6829145075545416780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trobar Idle Sprite Sheet_1
+      name: Trobar Walking Big Sheet_1
       rect:
         serializedVersion: 2
-        x: 9
+        x: 90
         y: 0
-        width: 9
-        height: 21
+        width: 90
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 916ff80c344a8954f919d582f9a49e3c
-      internalID: -1246697930431870317
+      spriteID: 9c08cab4a23391542988c1f58b5c8bfb
+      internalID: 3815382346873641910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trobar Idle Sprite Sheet_2
+      name: Trobar Walking Big Sheet_2
       rect:
         serializedVersion: 2
-        x: 18
+        x: 180
         y: 0
-        width: 9
-        height: 21
+        width: 90
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf834307a54533498818112cee83179
-      internalID: 3166034152072807291
+      spriteID: b9961e016a0f8104dbf54cc421771c81
+      internalID: -6887735194280937931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trobar Idle Sprite Sheet_3
+      name: Trobar Walking Big Sheet_3
       rect:
         serializedVersion: 2
-        x: 27
+        x: 270
         y: 0
-        width: 9
-        height: 21
+        width: 90
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,50 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4852cd616c80cb46942b7dc14970ab9
-      internalID: 5099004709148212975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trobar Idle Sprite Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 0
-        width: 9
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dd76f481374daa42bf512c70d868b17
-      internalID: 1468611644395281639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trobar Idle Sprite Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 0
-        width: 9
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d94801b6778efa4799489852dbe4992
-      internalID: 2353960576989212784
+      spriteID: f2bb5a426ed566f4a9b25517e5b2356d
+      internalID: 4422397521426130147
       vertices: []
       indices: 
       edges: []
