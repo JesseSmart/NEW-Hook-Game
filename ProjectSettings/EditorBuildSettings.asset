@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/My Scenes/Main Menu Scenes/Main Menu Scene.unity
-    guid: 7e642168170654c4ba3a50151c1a885d
+    path: Assets/My Scenes/JesseMainMenu.unity
+    guid: 866be0571670e904da3b18620f116d85
   - enabled: 1
-    path: Assets/My Scenes/Level design test.unity
-    guid: fede2a1c6f2e34043b54457999c70c75
+    path: Assets/My Scenes/JesseTestingScenes/JesseLevel1.unity
+    guid: 8a50c0a22d0b5f64e9c039800d66fb5e
   - enabled: 1
-    path: Assets/My Scenes/Main Menu Scenes/Character Select Scene.unity
-    guid: 888ab7f60dfb9b44cae9bdce4b8467f2
+    path: Assets/My Scenes/JesseTestingScenes/JesseLevel2.unity
+    guid: 74b9b0a759a054d42818d19e59393fe9
+  - enabled: 1
+    path: Assets/My Scenes/JesseTestingScenes/JesseLevel3.unity
+    guid: 3b5281f9c5236204197f4b2ab70e4cf8
   m_configObjects: {}
