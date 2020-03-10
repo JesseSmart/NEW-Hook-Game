@@ -9,6 +9,7 @@ TagManager:
   - GROUND
   - Death Area Tag
   - Finish Line
+  - Enemy
   layers:
   - Default
   - TransparentFX

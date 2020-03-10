@@ -188,19 +188,23 @@ public class PlayerMaster : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		//if (other.CompareTag("Enemy"))
-		//{
+		if (other.CompareTag("Enemy"))
+		{
 
-		//	GameObject myDeathObj = Instantiate(deathObj, transform.position, transform.rotation);
-		//	DeathScript myScript = myDeathObj.GetComponent<DeathScript>();
+			GameObject myDeathObj = Instantiate(deathObj, transform.position, transform.rotation);
+			DeathScript myScript = myDeathObj.GetComponent<DeathScript>();
 
-		//	myScript.deathAudio = collideDeathAudio;
+			myScript.deathAudio = collideDeathAudio;
 
-		//	Destroy(gameObject);
-		//}
+			mainManager.PlayerDeath();
+
+			Destroy(gameObject);
+		}
 
 		if (other.CompareTag("Death Area Tag"))
 		{
+
+
 			GameObject myDeathObj = Instantiate(deathObj, transform.position, transform.rotation);
 			DeathScript myScript = myDeathObj.GetComponent<DeathScript>();
 
@@ -211,11 +215,16 @@ public class PlayerMaster : MonoBehaviour
 			Destroy(gameObject);
 			//StartCoroutine(DelayedRespawn(2f));
 		}
+
+		if (other.gameObject.CompareTag("Finish Line"))
+		{
+			CrossFinish();
+		}
 	}
 
-	private void OnCollisionEnter2D(Collision2D collision)
+	private void OnCollisionEnter2D(Collision2D other)
 	{
-		if (collision.gameObject.CompareTag("GROUND"))
+		if (other.gameObject.CompareTag("GROUND"))
 		{
 			if (myState == PlayerState.Swinging)
 			{
@@ -224,9 +233,17 @@ public class PlayerMaster : MonoBehaviour
 				myState = PlayerState.Running;
 		}
 
-		if (collision.gameObject.CompareTag("FinishLine"))
+		if (other.gameObject.CompareTag("Enemy"))
 		{
-			CrossFinish();
+
+			GameObject myDeathObj = Instantiate(deathObj, transform.position, transform.rotation);
+			DeathScript myScript = myDeathObj.GetComponent<DeathScript>();
+
+			myScript.deathAudio = collideDeathAudio;
+
+			mainManager.PlayerDeath();
+
+			Destroy(gameObject);
 		}
 	}
 
