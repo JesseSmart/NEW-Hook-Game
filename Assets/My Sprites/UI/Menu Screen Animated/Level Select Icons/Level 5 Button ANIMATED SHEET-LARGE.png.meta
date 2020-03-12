@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: c89257ec3989d1b47b89d7b8a4913d2a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -820143009505355277
+    second: Level 5 Button ANIMATED SHEET-LARGE_0
+  - first:
+      213: -8494035236580655675
+    second: Level 5 Button ANIMATED SHEET-LARGE_1
+  - first:
+      213: 870701075468196717
+    second: Level 5 Button ANIMATED SHEET-LARGE_2
+  - first:
+      213: 526017845333512135
+    second: Level 5 Button ANIMATED SHEET-LARGE_3
+  - first:
+      213: 5511902952975674359
+    second: Level 5 Button ANIMATED SHEET-LARGE_4
+  - first:
+      213: -5125500105267177868
+    second: Level 5 Button ANIMATED SHEET-LARGE_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -108,7 +126,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Level 5 Button ANIMATED SHEET-LARGE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdf38eae412aea48be7cdaeb2f20cd0
+      internalID: -820143009505355277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Button ANIMATED SHEET-LARGE_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99d24a36e7bf1d40a036a4f25439927
+      internalID: -8494035236580655675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Button ANIMATED SHEET-LARGE_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80331f814df912c489f8b3397f24adce
+      internalID: 870701075468196717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Button ANIMATED SHEET-LARGE_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be021fd3c513984d991904bb7506196
+      internalID: 526017845333512135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Button ANIMATED SHEET-LARGE_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40f67f94c9e0ed49924fe8e30e4d24f
+      internalID: 5511902952975674359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Button ANIMATED SHEET-LARGE_5
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada14e11b69bb304397c644811d12dfd
+      internalID: -5125500105267177868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
