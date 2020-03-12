@@ -42,8 +42,10 @@ public class PlayerMaster : MonoBehaviour
 	public AudioClip fallDeathAudio;
 	public AudioClip collideDeathAudio;
 
+	private bool swingBoolHold;
+	private bool cancelSwing;
 
-
+	private float yValLastFrame;
 	//Line Renderer
 	#region
 	[Header("Line Rendering")]
@@ -69,6 +71,7 @@ public class PlayerMaster : MonoBehaviour
 		//sRenderer.sprite = sprRightSwing;
 		anim = GetComponentInChildren<Animator>();
 		mainManager = FindObjectOfType<MainManager>();
+		yValLastFrame = gameObject.transform.position.y;
 
 		//Line Rendering
 		lineR.material.color = lineColour;
@@ -85,21 +88,27 @@ public class PlayerMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		transform.Translate(Vector3.right * speedMod * Time.deltaTime, Space.World);
+
+		if (transform.position.y != yValLastFrame && myState == PlayerState.Running)
+		{
+			myState = PlayerState.Flying;
+			print("set to fly");
+		}
+
+		yValLastFrame = transform.position.y;
 
 		switch (myState)
 		{
 			case PlayerState.Swinging:
-				transform.Translate(Vector3.right * speedMod * Time.deltaTime, Space.World);
 
 				break;
 
 			case PlayerState.Running:
-				transform.Translate(Vector3.right * speedMod * Time.deltaTime, Space.World);
 				anim.SetInteger("PlayerState", 2);
 				break;
 
 			case PlayerState.Flying:
-				transform.Translate(Vector3.right * speedMod * Time.deltaTime, Space.World); //<---- this could be affecting smoothness
 				anim.SetInteger("PlayerState", 3);
 
 				break;
@@ -109,46 +118,61 @@ public class PlayerMaster : MonoBehaviour
 
 		if (Input.GetKeyDown(hookButton))
 		{
-
-			if (myState == PlayerState.Running)
+			if (!swingBoolHold)
 			{
-				Jump();
+				cancelSwing = false;
+
+
+				if (myState == PlayerState.Running)
+				{
+					//Jump();
+
+					StartCoroutine(DelayedJumpAndHook(1f));
+				}
+
+				if (myState == PlayerState.Flying)
+				{
+					rb.AddForce(Vector2.up * verticalHookForce);
+					StartSwing();
+				}
+
+
+				
 			}
-
-			if (myState == PlayerState.Flying)
-			{
-				rb.AddForce(Vector2.up * verticalHookForce);
-			}
-
-			myState = PlayerState.Swinging;
-
-			dJoint.enabled = true;
-			SelectHook();
-
-			//tangent force
-			Vector2 dir = (transform.position - position2.transform.position).normalized;
-			dir = Vector2.Perpendicular(dir);
-			rb.AddForce(dir * hookForce);
-
-			unHook = false;
-			//right force
-			//rb.AddForce(Vector2.right * hookForce);
 		}
 
 		if (Input.GetKey(hookButton))
 		{
-			if (!unHook)
+			if (!unHook && !swingBoolHold) //THIS WAS AN 'OR' BEFORE. THIS 'AND' HAS NOT BEEN TESTED MUCH. 'OR' HAD SOME ISSUES AND THIS WAS A SOLUTION
 			{
 				LineRendering();
 				SpriteSetter();
 
 			}
+
+
 		}
 
 		if (Input.GetKeyUp(hookButton))
 		{
 			UnHook();
+			cancelSwing = true;
 		}
+	}
+
+	void StartSwing()
+	{
+		myState = PlayerState.Swinging;
+
+		dJoint.enabled = true;
+		SelectHook();
+
+		//tangent force
+		Vector2 dir = (transform.position - position2.transform.position).normalized;
+		dir = Vector2.Perpendicular(dir);
+		rb.AddForce(dir * hookForce);
+
+		unHook = false;
 	}
 
 	void UnHook()
@@ -156,8 +180,8 @@ public class PlayerMaster : MonoBehaviour
 		lineR.enabled = false;
 		dJoint.enabled = false;
 		//sRenderer.sprite = sprIdleAir;
-		//myState = PlayerState.Running;
-		myState = PlayerState.Flying;
+		myState = PlayerState.Running;
+		//myState = PlayerState.Flying;
 		unHook = true;
 	}
 
@@ -229,8 +253,9 @@ public class PlayerMaster : MonoBehaviour
 			if (myState == PlayerState.Swinging)
 			{
 				UnHook();
-			}			
-				myState = PlayerState.Running;
+			}
+			
+			myState = PlayerState.Running;
 		}
 
 		if (other.gameObject.CompareTag("Enemy"))
@@ -247,6 +272,18 @@ public class PlayerMaster : MonoBehaviour
 		}
 	}
 
+	private void OnCollisionStay2D(Collision2D other)
+	{
+		print(other);
+		if (other.gameObject.CompareTag("GROUND"))
+		{
+			myState = PlayerState.Running;
+			print("set to running");
+
+		}
+
+	}
+
 	private void OnCollisionExit2D(Collision2D collision)
 	{
 		if (collision.gameObject.CompareTag("GROUND"))
@@ -259,12 +296,25 @@ public class PlayerMaster : MonoBehaviour
 		}
 	}
 
+
+	IEnumerator DelayedJumpAndHook(float delay)
+	{
+		swingBoolHold = true;
+		Jump();
+		yield return new WaitForSeconds(delay);
+		if (!cancelSwing)
+		{
+			StartSwing();
+		}
+		swingBoolHold = false;
+	}
+
 	void Jump() //make more for time held
 	{
 		rb.AddForce(Vector2.up * jumpForce);
 	}
 
-
+	
 	//HOOK BEHAVIOUR
 	#region 
 	void SelectHook()
