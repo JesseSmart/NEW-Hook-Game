@@ -10,6 +10,7 @@ TagManager:
   - Death Area Tag
   - Finish Line
   - Enemy
+  - Coin
   layers:
   - Default
   - TransparentFX
