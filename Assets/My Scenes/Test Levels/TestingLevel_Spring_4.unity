@@ -11581,17 +11581,17 @@ PrefabInstance:
     - target: {fileID: 3384479250161975942, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0087731
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3384479250161975942, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0087731
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3384479250161975942, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0087731
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6904453763041948205, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
         type: 3}
@@ -11607,6 +11607,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EGO Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722547418091297331, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722547418091297331, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8, type: 3}
