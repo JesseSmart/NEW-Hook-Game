@@ -160,6 +160,10 @@ MonoBehaviour:
     type: 3}
   fallDeathAudio: {fileID: 0}
   collideDeathAudio: {fileID: 0}
+  hookPointSprites:
+  - {fileID: 21300000, guid: 15afb70dfcf7a624eadecac8f9622b01, type: 3}
+  - {fileID: 21300000, guid: 982b66e90a77f0749b8a8fa5eac8c5f6, type: 3}
+  - {fileID: 21300000, guid: 4ad44216cfeb1d444a9a0290628eae34, type: 3}
   lineColour: {r: 0, g: 0, b: 0, a: 0}
   myMaterial: {fileID: 0}
   tileAmount: 0

@@ -46,6 +46,10 @@ public class PlayerMaster : MonoBehaviour
 	private bool cancelSwing;
 
 	private float yValLastFrame;
+
+	public Sprite[] hookPointSprites;
+	private GameObject nextHookObj;
+
 	//Line Renderer
 	#region
 	[Header("Line Rendering")]
@@ -89,6 +93,11 @@ public class PlayerMaster : MonoBehaviour
     void Update()
     {
 		transform.Translate(Vector3.right * speedMod * Time.deltaTime, Space.World);
+
+
+
+
+
 
 		if (transform.position.y != yValLastFrame && myState == PlayerState.Running)
 		{
@@ -134,10 +143,38 @@ public class PlayerMaster : MonoBehaviour
 				{
 					rb.AddForce(Vector2.up * verticalHookForce);
 					StartSwing();
-				}
+				}				
+			}
+		}
 
 
-				
+		//Make white
+		foreach (GameObject hookP in GameObject.FindGameObjectsWithTag("Grapple Point"))
+		{
+			if (hookP.transform.position.x < gameObject.transform.position.x)
+			{
+				nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[0];
+
+			}
+		}
+
+		//Make blue
+		GameObject[] hookPointsObj = GameObject.FindGameObjectsWithTag(hookPointTag);
+		Transform[] hookPointTrans = new Transform[hookPointsObj.Length];
+		for (int i = 0; i < hookPointsObj.Length; i++)
+		{
+			hookPointTrans[i] = hookPointsObj[i].transform;
+		}
+		Transform tempPos = GetClosestPoint(hookPointTrans);
+
+		foreach (GameObject go in hookPointsObj)
+		{
+			if (go.transform.position == tempPos.position)
+			{
+				nextHookObj = go;
+				nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[1];
+
+				break;
 			}
 		}
 
@@ -148,6 +185,20 @@ public class PlayerMaster : MonoBehaviour
 				LineRendering();
 				SpriteSetter();
 
+				GameObject[] PointsObj = GameObject.FindGameObjectsWithTag(hookPointTag);
+
+				foreach (GameObject go in PointsObj)
+				{
+					if (go.transform.position == position2.position)
+					{
+						nextHookObj = go;
+						nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[2];
+
+						break;
+					}
+				}
+
+				//nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[2];
 			}
 
 
@@ -158,6 +209,9 @@ public class PlayerMaster : MonoBehaviour
 			UnHook();
 			cancelSwing = true;
 		}
+
+		
+
 	}
 
 	void StartSwing()
@@ -172,6 +226,9 @@ public class PlayerMaster : MonoBehaviour
 		dir = Vector2.Perpendicular(dir);
 		rb.AddForce(dir * hookForce);
 
+		nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[2];
+
+
 		unHook = false;
 	}
 
@@ -182,6 +239,11 @@ public class PlayerMaster : MonoBehaviour
 		//sRenderer.sprite = sprIdleAir;
 		myState = PlayerState.Running;
 		//myState = PlayerState.Flying;
+
+		//nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[0];
+
+		
+
 		unHook = true;
 	}
 
@@ -332,6 +394,8 @@ public class PlayerMaster : MonoBehaviour
 
 
 		position2 = GetClosestPoint(hookPointTrans);
+
+		
 	}
 	void LineRendering()
 	{		
@@ -347,6 +411,7 @@ public class PlayerMaster : MonoBehaviour
 		lineR.material.mainTextureScale = new Vector2(dist * 1, 1);
 		
 	}
+
 	Transform GetClosestPoint(Transform[] points)
 	{
 		Transform tMin = null;
