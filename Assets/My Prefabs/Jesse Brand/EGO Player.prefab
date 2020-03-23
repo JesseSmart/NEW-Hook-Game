@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 2973496410458585250}
   m_Layer: 0
   m_Name: EGO Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,8 +152,8 @@ MonoBehaviour:
   myState: 0
   hookButton: 32
   doMovement: 1
-  speedMod: 2
-  jumpForce: 300
+  speedMod: 5
+  jumpForce: 600
   hookForce: 200
   verticalHookForce: 0
   deathObj: {fileID: 1311340665535996394, guid: 3f6354f63d99a2f4ba3dd1178e3f176c,
@@ -164,7 +164,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 15afb70dfcf7a624eadecac8f9622b01, type: 3}
   - {fileID: 21300000, guid: 982b66e90a77f0749b8a8fa5eac8c5f6, type: 3}
   - {fileID: 21300000, guid: 4ad44216cfeb1d444a9a0290628eae34, type: 3}
-  lineColour: {r: 0, g: 0, b: 0, a: 0}
+  lineColour: {r: 1, g: 0, b: 0.9708805, a: 0.87058824}
   myMaterial: {fileID: 0}
   tileAmount: 0
 --- !u!120 &3087945853907427403
@@ -205,7 +205,7 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 12
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
@@ -229,7 +229,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.9528302, g: 0.004494493, b: 0.004494493, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
