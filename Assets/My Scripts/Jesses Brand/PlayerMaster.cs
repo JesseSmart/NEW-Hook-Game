@@ -50,6 +50,8 @@ public class PlayerMaster : MonoBehaviour
 	public Sprite[] hookPointSprites;
 	private GameObject nextHookObj;
 
+
+	public bool haveStarted;
 	//Line Renderer
 	#region
 	[Header("Line Rendering")]
@@ -92,6 +94,18 @@ public class PlayerMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if (!haveStarted)
+		{
+			return;
+		}
+
+
+		//debug
+		if (Input.GetKeyDown(KeyCode.Minus))
+		{
+			mainManager.ClearCoin();
+		}
+
 		transform.Translate(Vector3.right * speedMod * Time.deltaTime, Space.World);
 
 
@@ -306,8 +320,20 @@ public class PlayerMaster : MonoBehaviour
 		{
 			CrossFinish();
 		}
+
+		if (other.gameObject.CompareTag("Coin"))
+		{
+			mainManager.CollectCoin();
+			Destroy(other.gameObject);
+		}
+
+		if (other.gameObject.CompareTag("Finish Line"))
+		{
+			mainManager.CrossFinish();
+		}
 	}
 
+	#region COLLISION
 	private void OnCollisionEnter2D(Collision2D other)
 	{
 		if (other.gameObject.CompareTag("GROUND"))
@@ -357,7 +383,7 @@ public class PlayerMaster : MonoBehaviour
 
 		}
 	}
-
+	#endregion
 
 	IEnumerator DelayedJumpAndHook(float delay)
 	{
