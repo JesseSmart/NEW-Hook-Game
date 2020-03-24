@@ -2190,6 +2190,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ea82bab61be5834086202312efe41b0, type: 3}
+--- !u!1 &380840621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1626024734}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380840622}
+  m_Layer: 0
+  m_Name: Gerki Coin Prefab (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380840622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1626024734}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380840621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &383024544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4897,7 +4927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796179491}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.5, y: 0, z: 0.61}
+  m_LocalPosition: {x: -25.5, y: -7.93, z: 0.61}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 413701923}
@@ -7567,7 +7597,7 @@ PrefabInstance:
     - target: {fileID: 3384479250161975942, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3384479250161975942, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
         type: 3}
@@ -10113,7 +10143,7 @@ PrefabInstance:
     - target: {fileID: 3168642425561284335, guid: fe4833f08aaa5f74c8ffbf8b17149351,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3168642425561284335, guid: fe4833f08aaa5f74c8ffbf8b17149351,
         type: 3}
@@ -10995,7 +11025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936009724}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.5, y: 0, z: 0.61}
+  m_LocalPosition: {x: -25.5, y: -8.24, z: 0.61}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 84387791}
