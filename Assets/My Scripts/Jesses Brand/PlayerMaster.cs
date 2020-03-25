@@ -100,11 +100,7 @@ public class PlayerMaster : MonoBehaviour
 		}
 
 
-		//debug
-		if (Input.GetKeyDown(KeyCode.Minus))
-		{
-			mainManager.ClearCoin();
-		}
+		
 
 		transform.Translate(Vector3.right * speedMod * Time.deltaTime, Space.World);
 
