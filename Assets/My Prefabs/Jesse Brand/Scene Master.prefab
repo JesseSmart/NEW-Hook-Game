@@ -45,3 +45,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpawnedObj: {fileID: 7911750794839412081, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
     type: 3}
+  pnlPause: {fileID: 0}
+  bronzeTime: 0
+  silverTime: 0
+  goldTime: 0
+  isNight: 0
+  dayHookPointSprites:
+  - {fileID: 21300000, guid: 15afb70dfcf7a624eadecac8f9622b01, type: 3}
+  - {fileID: 21300000, guid: 982b66e90a77f0749b8a8fa5eac8c5f6, type: 3}
+  - {fileID: 21300000, guid: 4ad44216cfeb1d444a9a0290628eae34, type: 3}
+  nightHookPointSprites:
+  - {fileID: 21300000, guid: 0c39c7a77800e684fa8cc908035c171a, type: 3}
+  - {fileID: 21300000, guid: 3eaeabac231f8114da4e57727da0c76a, type: 3}
+  - {fileID: 21300000, guid: 2d0e8df7fbe97824b86c75d198ac3fb0, type: 3}

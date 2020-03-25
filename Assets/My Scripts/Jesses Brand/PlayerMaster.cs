@@ -40,7 +40,7 @@ public class PlayerMaster : MonoBehaviour
 	private bool cancelSwing;
 
 	private float yValLastFrame;
-
+	[HideInInspector]
 	public Sprite[] hookPointSprites;
 	private GameObject nextHookObj;
 

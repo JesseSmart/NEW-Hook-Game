@@ -22,6 +22,9 @@ public class MainManager : MonoBehaviour
 	private bool hasStarted;
 	private bool hasFinished;
 
+	public bool isNight;
+	public Sprite[] dayHookPointSprites;
+	public Sprite[] nightHookPointSprites;
 
 	//UI
 	private Text introTimerDisplay;
@@ -46,6 +49,15 @@ public class MainManager : MonoBehaviour
 
 		highscoreDisplay.text = "Highscore: " + PlayerPrefs.GetFloat("LocalHighscore").ToString("F2");
 
+
+		if (isNight)
+		{
+			playerObj.GetComponent<PlayerMaster>().hookPointSprites = nightHookPointSprites;
+		}
+		else
+		{
+			playerObj.GetComponent<PlayerMaster>().hookPointSprites = dayHookPointSprites;
+		}
 		//pnlPause = GameObject.Find("PausePanel");
 	}
 
