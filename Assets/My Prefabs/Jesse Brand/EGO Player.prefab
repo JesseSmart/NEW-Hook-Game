@@ -156,14 +156,16 @@ MonoBehaviour:
   jumpForce: 600
   hookForce: 200
   verticalHookForce: 0
+  hookRange: 5
   deathObj: {fileID: 1311340665535996394, guid: 3f6354f63d99a2f4ba3dd1178e3f176c,
     type: 3}
-  fallDeathAudio: {fileID: 0}
-  collideDeathAudio: {fileID: 0}
   hookPointSprites:
   - {fileID: 21300000, guid: 15afb70dfcf7a624eadecac8f9622b01, type: 3}
   - {fileID: 21300000, guid: 982b66e90a77f0749b8a8fa5eac8c5f6, type: 3}
   - {fileID: 21300000, guid: 4ad44216cfeb1d444a9a0290628eae34, type: 3}
+  haveStarted: 0
+  fallDeathAudio: {fileID: 0}
+  collideDeathAudio: {fileID: 0}
   lineColour: {r: 1, g: 0, b: 0.9708805, a: 0.87058824}
   myMaterial: {fileID: 0}
   tileAmount: 0

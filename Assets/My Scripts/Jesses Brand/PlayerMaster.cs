@@ -11,36 +11,30 @@ public class PlayerMaster : MonoBehaviour
 		Flying
 
 	}
+
+	[Header("Movement")]
 	public PlayerState myState;
 
 	public KeyCode hookButton;
-
 	public bool doMovement;
-
 	public float speedMod;
+
+	[Header("Hook Variables")]
 	public int jumpForce;
 	public int hookForce;
 	public int verticalHookForce;
+	public int hookRange;
 
 	private DistanceJoint2D dJoint;
 	private Rigidbody2D rb;
 	private Animator anim;
 
-	//private SpriteRenderer sRenderer;
-	//public Sprite sprRightSwing;
-	//public Sprite sprLeftSwing;
-	//public Sprite sprIdleAir;
-
 	public GameObject deathObj;
 
 	private bool unHook;
-
-	//private GameObject spawnPointObj;
 	private MainManager mainManager;
 
-	//Audio
-	public AudioClip fallDeathAudio;
-	public AudioClip collideDeathAudio;
+	
 
 	private bool swingBoolHold;
 	private bool cancelSwing;
@@ -50,15 +44,24 @@ public class PlayerMaster : MonoBehaviour
 	public Sprite[] hookPointSprites;
 	private GameObject nextHookObj;
 
-
+	[HideInInspector]
 	public bool haveStarted;
+
+
+	//Audio
+	[Header("Audio")]
+	public AudioClip fallDeathAudio;
+	public AudioClip collideDeathAudio;
+
+
 	//Line Renderer
 	#region
-	[Header("Line Rendering")]
 	//public Transform position1; //Player
+
+	[Header("Line Rendering")]
+	public Color lineColour; //line colour 
 	private Transform position2; //hookpoint
 	private LineRenderer lineR; //the line render
-	public Color lineColour; //line colour 
 	public Material myMaterial; 
 	private string hookPointTag; //Tag of hookpoints 
 	public int tileAmount;
@@ -181,8 +184,16 @@ public class PlayerMaster : MonoBehaviour
 		{
 			if (go.transform.position == tempPos.position)
 			{
-				nextHookObj = go;
-				nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[1];
+				//HERE is where you would put a "you will be going to this hook next but its currently out of range (maybe like a white with dotted blue)
+
+				float dist = Vector3.Distance(transform.position, go.transform.position);
+				if (dist < hookRange)
+				{
+					nextHookObj = go;
+					nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[1];
+
+				}
+
 
 				break;
 			}
@@ -226,20 +237,27 @@ public class PlayerMaster : MonoBehaviour
 
 	void StartSwing()
 	{
-		myState = PlayerState.Swinging;
-
-		dJoint.enabled = true;
+		
 		SelectHook();
 
-		//tangent force
-		Vector2 dir = (transform.position - position2.transform.position).normalized;
-		dir = Vector2.Perpendicular(dir);
-		rb.AddForce(dir * hookForce);
+		float dist = Vector3.Distance(transform.position, position2.position);
+		if (dist < hookRange)
+		{
+			myState = PlayerState.Swinging;
 
-		nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[2];
+			dJoint.enabled = true;
+
+			//tangent force
+			Vector2 dir = (transform.position - position2.transform.position).normalized;
+			dir = Vector2.Perpendicular(dir);
+			rb.AddForce(dir * hookForce);
+
+			nextHookObj.GetComponent<SpriteRenderer>().sprite = hookPointSprites[2];
 
 
-		unHook = false;
+			unHook = false;
+
+		}
 	}
 
 	void UnHook()
@@ -414,7 +432,7 @@ public class PlayerMaster : MonoBehaviour
 		}
 
 
-
+		
 		position2 = GetClosestPoint(hookPointTrans);
 
 		
