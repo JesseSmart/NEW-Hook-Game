@@ -424,10 +424,14 @@ public class PlayerMaster : MonoBehaviour
 		
 	}
 	void LineRendering()
-	{		
+	{
 
 		//lineR.SetPosition(0, position1.position);
-		lineR.SetPosition(0, transform.position);
+
+		Vector3 pos1 = new Vector3(transform.position.x, transform.position.y, -20);
+		position2.position = new Vector3(position2.position.x, position2.position.y, -20);
+
+		lineR.SetPosition(0, pos1);
 		lineR.SetPosition(1, position2.position);
 
 		dJoint.connectedAnchor = position2.position;

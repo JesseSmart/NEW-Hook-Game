@@ -24,9 +24,9 @@ public class MainManager : MonoBehaviour
 
 
 	//UI
-	public Text introTimerDisplay;
-	public Text levelTimerDisplay;
-	public Text coinDisplay;
+	private Text introTimerDisplay;
+	private Text levelTimerDisplay;
+	private Text coinDisplay;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +34,11 @@ public class MainManager : MonoBehaviour
 		playerObj = FindObjectOfType<PlayerMaster>().gameObject;
 		cameraCon = FindObjectOfType<CameraController>();
 		spawnPoint = GameObject.Find("EGO SpawnPoint");
+
+		introTimerDisplay = GameObject.Find("Intro Timer").GetComponent<Text>();
+		levelTimerDisplay = GameObject.Find("Level Timer Display").GetComponent<Text>();
+		coinDisplay = GameObject.Find("Coin Display").GetComponent<Text>();
+
 		//pnlPause = GameObject.Find("PausePanel");
 	}
 
