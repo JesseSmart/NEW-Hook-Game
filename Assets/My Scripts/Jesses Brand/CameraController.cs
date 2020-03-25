@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-
+	[HideInInspector]
 	public GameObject targetObject;
 
 	private Vector3 followPos;

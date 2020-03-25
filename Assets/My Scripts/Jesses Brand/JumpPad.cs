@@ -15,7 +15,7 @@ public class JumpPad : MonoBehaviour
     void Start()
     {
 		launchVec = new Vector2(horizontalLaunchForce, verticalLaunchForce);
-		GetComponentInChildren<Animator>();
+		anim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
