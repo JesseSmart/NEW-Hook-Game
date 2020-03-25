@@ -186,7 +186,7 @@ public class PlayerMaster : MonoBehaviour
 			{
 				//HERE is where you would put a "you will be going to this hook next but its currently out of range (maybe like a white with dotted blue)
 
-				float dist = Vector3.Distance(transform.position, go.transform.position);
+				float dist = Vector3.Distance(transform.position, go.transform.position); //need to check if has fallen out of range incase they go in and out of range. Maybe an ELSE just below and set to white
 				if (dist < hookRange)
 				{
 					nextHookObj = go;

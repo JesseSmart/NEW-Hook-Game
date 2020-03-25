@@ -1175,6 +1175,11 @@ PrefabInstance:
       propertyPath: goldTime
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1314296815608485823, guid: fe4833f08aaa5f74c8ffbf8b17149351,
+        type: 3}
+      propertyPath: isNight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3168642425561284335, guid: fe4833f08aaa5f74c8ffbf8b17149351,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1477,11 +1482,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7538972715564050807, guid: 2ea82bab61be5834086202312efe41b0,
         type: 3}
-    - target: {fileID: 7467890370886099042, guid: 2ea69ea91a6538d4fa16265c53b42dcb,
-        type: 3}
-      propertyPath: hookGap
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7467890370886099043, guid: 2ea69ea91a6538d4fa16265c53b42dcb,
         type: 3}
       propertyPath: m_LocalPosition.x

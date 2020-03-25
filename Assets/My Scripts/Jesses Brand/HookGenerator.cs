@@ -6,6 +6,7 @@ public class HookGenerator : MonoBehaviour
 {
 
 	public GameObject hookPointObj;
+	public GameObject hookLanternPointObj;
 
 	public int hookGap;
 
@@ -19,6 +20,11 @@ public class HookGenerator : MonoBehaviour
 		startPos = transform.position;
 
 		playerObj = GameObject.FindGameObjectWithTag("Player");
+
+		if (FindObjectOfType<MainManager>().isNight)
+		{
+			hookPointObj = hookLanternPointObj;
+		}
 
 		GenerateHooks(50);
     }
