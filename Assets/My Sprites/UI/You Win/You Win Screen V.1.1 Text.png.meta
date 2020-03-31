@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: b109788cf30410e479a26a1defb3fe47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4483730116616536170
+    second: You Win Screen V.1.1 Text_0
+  - first:
+      213: -1748425758639251823
+    second: You Win Screen V.1.1 Text_7
+  - first:
+      213: -2916405229666428650
+    second: You Win Screen V.1.1 Text_8
+  - first:
+      213: 8517624571321323555
+    second: You Win Screen V.1.1 Text_9
+  - first:
+      213: 8120461537767802662
+    second: You Win Screen V.1.1 Text_10
+  - first:
+      213: -1339347571734642478
+    second: You Win Screen V.1.1 Text_11
+  - first:
+      213: 8851046855997530111
+    second: You Win Screen V.1.1 Text_13
+  - first:
+      213: 1927555965601961691
+    second: You Win Screen V.1.1 Text_21
+  - first:
+      213: -6969045490872481188
+    second: You Win Screen V.1.1 Text_22
+  - first:
+      213: 5030938598367747398
+    second: You Win Screen V.1.1 Text_23
+  - first:
+      213: -5184495602440170493
+    second: You Win Screen V.1.1 Text_24
+  - first:
+      213: -4343051075179066863
+    second: You Win Screen V.1.1 Text_25
+  - first:
+      213: 6022249030199754748
+    second: You Win Screen V.1.1 Text_26
+  - first:
+      213: 2705588210350382306
+    second: You Win Screen V.1.1 Text_27
+  - first:
+      213: -7778103527283228473
+    second: You Win Screen V.1.1 Text_31
+  - first:
+      213: 7833063839674990929
+    second: You Win Screen V.1.1 Text_32
+  - first:
+      213: 2220883575190851522
+    second: You Win Screen V.1.1 Text_33
+  - first:
+      213: 8045836963133151333
+    second: You Win Screen V.1.1 Text_34
+  - first:
+      213: 4689407724320829665
+    second: You Win Screen V.1.1 Text_43
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_0
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 639
+        width: 892
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9041841f78918b4baf3eb08ac825c1c
+      internalID: -4483730116616536170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_7
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 639
+        width: 83
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c0374e9c6c76648a9f64010a24f1b7
+      internalID: -1748425758639251823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_8
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 639
+        width: 93
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec7362b591754d4897453520d414b94
+      internalID: -2916405229666428650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_9
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 639
+        width: 103
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccda2c3c6ac9d54eae225a962b08932
+      internalID: 8517624571321323555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_10
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 639
+        width: 92
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e9848c4d7e52d4dba16f260178d19f
+      internalID: 8120461537767802662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_11
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 639
+        width: 93
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a588bba8a38010e469c2cd7c5c98f45a
+      internalID: -1339347571734642478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 883
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0d62d3d0cfecb49b224412fe6b9e63
+      internalID: 8851046855997530111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_21
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 369
+        width: 72
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d8f2e246aa2484f818906de5f8dba6
+      internalID: 1927555965601961691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_22
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 458
+        width: 92
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d299f2dd8eae3145b854cc5b96aed18
+      internalID: -6969045490872481188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_23
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 458
+        width: 93
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85073ea6f8dac7747888754080995bb8
+      internalID: 5030938598367747398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_24
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 458
+        width: 93
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c7cf8e04cd42d478898b0728bd8cc4
+      internalID: -5184495602440170493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_25
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 458
+        width: 91
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaa8414a586c6b4f8b1c1f1fc119f52
+      internalID: -4343051075179066863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_26
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 458
+        width: 93
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5608ab1785b80a540816149c93c542b5
+      internalID: 6022249030199754748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 532
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71873d048998ce48b8622b583a84235
+      internalID: 2705588210350382306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_31
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 99
+        width: 254
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07146085f6e630f4696ecabc12f7909c
+      internalID: -7778103527283228473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_32
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 99
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4592f776c82f34883a0a2dd0a20490
+      internalID: 7833063839674990929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_33
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 99
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4519f8ae10c41794ba65c6a2cb31597c
+      internalID: 2220883575190851522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_34
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 109
+        width: 455
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab98e6f7957199447b77eac8f4ee432c
+      internalID: 8045836963133151333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Win Screen V.1.1 Text_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 419
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c69f63450e3994398c82181d17e4f5
+      internalID: 4689407724320829665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
