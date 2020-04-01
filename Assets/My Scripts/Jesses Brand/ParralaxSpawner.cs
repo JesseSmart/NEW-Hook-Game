@@ -5,17 +5,27 @@ using UnityEngine;
 public class ParralaxSpawner : MonoBehaviour
 {
 
-	
+	//public GameObject foreGroundObj;
+
+	public GameObject spriteHolder;
 	public Sprite foreGroundImage;
 	public Sprite midGroundImage;
 	public Sprite backGroundImage;
+
+	public float forGroundNum;
+	public float midGroundNum;
+	public float backGroundNum;
 
 
     // Start is called before the first frame update
     void Start()
     {
-		Instantiate(foreGroundImage, Vector3.zero, transform.rotation);
-		SpawnLoop(foreGroundImage, 10);
+
+
+		SpawnLoop(foreGroundImage, 10, forGroundNum);
+		SpawnLoop(midGroundImage, 10, midGroundNum);
+		SpawnLoop(backGroundImage, 10, backGroundNum);
+
     }
 
     // Update is called once per frame
@@ -24,13 +34,14 @@ public class ParralaxSpawner : MonoBehaviour
 
 	}
 
-	void SpawnLoop(Sprite mySprite, int amount)
+	void SpawnLoop(Sprite mySprite, int amount, float layer)
 	{
 		for (int i = 0; i < amount; i++)
 		{
-			Vector3 spawnVec = new Vector3(transform.position.x + (mySprite.rect.x * i), transform.position.y, transform.position.z);
-			Instantiate(mySprite, spawnVec, transform.rotation);
-			print("spawned");
+			Vector3 spawnVec = new Vector3(transform.position.x + (mySprite.bounds.extents.x * 2 * i), transform.position.y, transform.position.z);
+			GameObject currentSpawn = Instantiate(spriteHolder, spawnVec, transform.rotation);
+			currentSpawn.GetComponentInChildren<SpriteRenderer>().sprite = mySprite;
+			currentSpawn.GetComponent<ParralaxObject>().parralaxLayer = layer;
 		}
 	}
 }

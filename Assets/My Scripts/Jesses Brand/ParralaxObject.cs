@@ -20,15 +20,7 @@ public class ParralaxObject : MonoBehaviour
 		myStartPos = transform.position;
 		parralaxLayerSpeed = 1 + (0.4f * parralaxLayer);
 
-		//switch (parralaxLayer)
-		//{
-		//	case 0:
-		//		parralaxLayerSpeed = 0;
-		//		break;
-		//	case 1:
-		//		parralaxLayerSpeed = 1.2f;
-		//		break;
-		//}
+	
     }
 
     // Update is called once per frame

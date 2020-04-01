@@ -1001,6 +1001,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: EGO Parralax Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 601224508621074202, guid: c48b39879f52259478c7831098060527,
+        type: 3}
+      propertyPath: foreGroundObj
+      value: 
+      objectReference: {fileID: 2058668923618586612, guid: 315e6535157611d47a53394ed74fa8b8,
+        type: 3}
     - target: {fileID: 601224508621074203, guid: c48b39879f52259478c7831098060527,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1009,7 +1015,7 @@ PrefabInstance:
     - target: {fileID: 601224508621074203, guid: c48b39879f52259478c7831098060527,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 601224508621074203, guid: c48b39879f52259478c7831098060527,
         type: 3}

@@ -43,6 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1d869cf4bfb1a4ea498fe20d85f566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteHolder: {fileID: 8530433007163715388, guid: 0f6b07194bc82d148a2ea66dd1460e93,
+    type: 3}
   foreGroundImage: {fileID: 21300000, guid: 665445e6235bc1c42ad2add7866459d1, type: 3}
-  midGroundImage: {fileID: 0}
-  backGroundImage: {fileID: 0}
+  midGroundImage: {fileID: 21300000, guid: 5ee591d582ab43d44a6674b57cdd3e40, type: 3}
+  backGroundImage: {fileID: 21300000, guid: e18185748aa88c9489a06505a212dfbf, type: 3}
+  forGroundNum: 1
+  midGroundNum: 2
+  backGroundNum: 3
