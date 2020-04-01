@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 7347e74cf6ebe5243887b2c9d21be57d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -734002942077052133
+    second: Gerald Exit Slim Sheet-LARGE_0
+  - first:
+      213: 1387493408730531778
+    second: Gerald Exit Slim Sheet-LARGE_1
+  - first:
+      213: -9042034082979108845
+    second: Gerald Exit Slim Sheet-LARGE_2
+  - first:
+      213: -8168462805618530852
+    second: Gerald Exit Slim Sheet-LARGE_3
+  - first:
+      213: -602865370904513563
+    second: Gerald Exit Slim Sheet-LARGE_4
+  - first:
+      213: -8787961259794567887
+    second: Gerald Exit Slim Sheet-LARGE_5
+  - first:
+      213: -7771373933922845395
+    second: Gerald Exit Slim Sheet-LARGE_6
+  - first:
+      213: 8201267729202651543
+    second: Gerald Exit Slim Sheet-LARGE_7
+  - first:
+      213: 2910459570097599649
+    second: Gerald Exit Slim Sheet-LARGE_8
+  - first:
+      213: 2991267686396418361
+    second: Gerald Exit Slim Sheet-LARGE_9
+  - first:
+      213: -893716828472900071
+    second: Gerald Exit Slim Sheet-LARGE_10
+  - first:
+      213: 1450763672498342925
+    second: Gerald Exit Slim Sheet-LARGE_11
+  - first:
+      213: 4943177191426850181
+    second: Gerald Exit Slim Sheet-LARGE_12
+  - first:
+      213: 6532290129560211830
+    second: Gerald Exit Slim Sheet-LARGE_13
+  - first:
+      213: 1035443026534266105
+    second: Gerald Exit Slim Sheet-LARGE_14
+  - first:
+      213: -3706096217191148890
+    second: Gerald Exit Slim Sheet-LARGE_15
+  - first:
+      213: -2740034192805054857
+    second: Gerald Exit Slim Sheet-LARGE_16
+  - first:
+      213: 8151559677735691658
+    second: Gerald Exit Slim Sheet-LARGE_17
+  - first:
+      213: -2446452317970711288
+    second: Gerald Exit Slim Sheet-LARGE_18
+  - first:
+      213: 1910246349322962862
+    second: Gerald Exit Slim Sheet-LARGE_19
+  - first:
+      213: 3461663189644042122
+    second: Gerald Exit Slim Sheet-LARGE_20
+  - first:
+      213: 1803527769899791287
+    second: Gerald Exit Slim Sheet-LARGE_21
+  - first:
+      213: 4011987564832554125
+    second: Gerald Exit Slim Sheet-LARGE_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02d3a0f1f5ef394cb488296f888c39f
+      internalID: -734002942077052133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa0688bb2d03f543bf9efbc3ca19358
+      internalID: 1387493408730531778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acadf3a8d89c44346b3f8a284fc5efbf
+      internalID: -9042034082979108845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_3
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046c975e44982e4a90bb523774cb5ad
+      internalID: -8168462805618530852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_4
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e99a1124f90e54db791615a051dec6
+      internalID: -602865370904513563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_5
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2e3f03da4549e449a7873d1df03a90
+      internalID: -8787961259794567887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_6
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0217c6d3ca8514aa746ac44b603645
+      internalID: -7771373933922845395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_7
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be36761f35a955640a3dd782e7e6f811
+      internalID: 8201267729202651543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_8
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99d5ff3118754e458c3384bfd830b7b
+      internalID: 2910459570097599649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_9
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b526355202481e419cf7f7440432d52
+      internalID: 2991267686396418361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_10
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5613ed2322bf14b4ead35d3b53afa981
+      internalID: -893716828472900071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_11
+      rect:
+        serializedVersion: 2
+        x: 4290
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220717951a8b1844fb95f91b710f70f2
+      internalID: 1450763672498342925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_12
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4737c4bcfd072924695680f9147f57d9
+      internalID: 4943177191426850181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_13
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aff80d24aa8f7345805dd33d162fbac
+      internalID: 6532290129560211830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_14
+      rect:
+        serializedVersion: 2
+        x: 5460
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e41b74784facc04f89b3001f98fbb2c
+      internalID: 1035443026534266105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_15
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe23837b1303894f842855b0c5bf875
+      internalID: -3706096217191148890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_16
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1c17e0e0cc634d95558c1025dd075
+      internalID: -2740034192805054857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_17
+      rect:
+        serializedVersion: 2
+        x: 6630
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ba96658a3719d44b407c21b307efd0
+      internalID: 8151559677735691658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_18
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67ec0d6be3ec814b925de8e3a166234
+      internalID: -2446452317970711288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_19
+      rect:
+        serializedVersion: 2
+        x: 7410
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ff447b92410ea48b1a216258af32e8
+      internalID: 1910246349322962862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_20
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a81a82bd3404d479c980096286dd74
+      internalID: 3461663189644042122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_21
+      rect:
+        serializedVersion: 2
+        x: 8190
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53c3180053e0b143b90b7567caa2133
+      internalID: 1803527769899791287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gerald Exit Slim Sheet-LARGE_22
+      rect:
+        serializedVersion: 2
+        x: 8580
+        y: 0
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca2f15e356541b4f9eb09ad7413fce6
+      internalID: 4011987564832554125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
