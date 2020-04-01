@@ -1,67 +1,67 @@
 fileFormatVersion: 2
-guid: a79b6057fb139ec4289c6a25821f319b
+guid: a75876e28e9bad049a8afc0679b32d36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4799928843195337309
-    second: G coin 2 Sheet-LARGE_0
+      213: -7727951578121659346
+    second: G Coin Emission Sheet Large_0
   - first:
-      213: -3578823991387027630
-    second: G coin 2 Sheet-LARGE_1
+      213: 6086567135313722291
+    second: G Coin Emission Sheet Large_1
   - first:
-      213: -4820396357184268266
-    second: G coin 2 Sheet-LARGE_2
+      213: 6512429073231301841
+    second: G Coin Emission Sheet Large_2
   - first:
-      213: 5193390790643143292
-    second: G coin 2 Sheet-LARGE_3
+      213: -6528947725309954882
+    second: G Coin Emission Sheet Large_3
   - first:
-      213: 2461459980115967323
-    second: G coin 2 Sheet-LARGE_4
+      213: -9020434195777211724
+    second: G Coin Emission Sheet Large_4
   - first:
-      213: 3744563113436867450
-    second: G coin 2 Sheet-LARGE_5
+      213: 286659218835899800
+    second: G Coin Emission Sheet Large_5
   - first:
-      213: 1184558857465635506
-    second: G coin 2 Sheet-LARGE_6
+      213: 5243480981442750473
+    second: G Coin Emission Sheet Large_6
   - first:
-      213: -5154500935540713857
-    second: G coin 2 Sheet-LARGE_7
+      213: 5443331349475698524
+    second: G Coin Emission Sheet Large_7
   - first:
-      213: 887262815595666970
-    second: G coin 2 Sheet-LARGE_8
+      213: -4999622702696831016
+    second: G Coin Emission Sheet Large_8
   - first:
-      213: 8656308606624233633
-    second: G coin 2 Sheet-LARGE_9
+      213: -532808333120050872
+    second: G Coin Emission Sheet Large_9
   - first:
-      213: 8172934364356933991
-    second: G coin 2 Sheet-LARGE_10
+      213: -2063485340545609919
+    second: G Coin Emission Sheet Large_10
   - first:
-      213: -1750049882904082912
-    second: G coin 2 Sheet-LARGE_11
+      213: 7952465219931659970
+    second: G Coin Emission Sheet Large_11
   - first:
-      213: -585587594220336139
-    second: G coin 2 Sheet-LARGE_12
+      213: -306212495040174764
+    second: G Coin Emission Sheet Large_12
   - first:
-      213: 7538191749557947465
-    second: G coin 2 Sheet-LARGE_13
+      213: 8583258124210356117
+    second: G Coin Emission Sheet Large_13
   - first:
-      213: -2063447582998505495
-    second: G coin 2 Sheet-LARGE_14
+      213: -8032041116641774491
+    second: G Coin Emission Sheet Large_14
   - first:
-      213: -1658162246299317013
-    second: G coin 2 Sheet-LARGE_15
+      213: -547135243356996524
+    second: G Coin Emission Sheet Large_15
   - first:
-      213: 5650075433938833739
-    second: G coin 2 Sheet-LARGE_16
+      213: -2803675096045550285
+    second: G Coin Emission Sheet Large_16
   - first:
-      213: 9018750377029222832
-    second: G coin 2 Sheet-LARGE_17
+      213: 2344700980520472394
+    second: G Coin Emission Sheet Large_17
   - first:
-      213: -450921276529941135
-    second: G coin 2 Sheet-LARGE_18
+      213: -5204610641025359466
+    second: G Coin Emission Sheet Large_18
   - first:
-      213: -508941717978132810
-    second: G coin 2 Sheet-LARGE_19
+      213: 2702555998196930207
+    second: G Coin Emission Sheet Large_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -142,28 +142,16 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_0
+      name: G Coin Emission Sheet Large_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 250
+        width: 259
         height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -172,19 +160,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b563d621fe90ea4db3b131db308622c
-      internalID: 4799928843195337309
+      spriteID: afde5dacad36bcd4eb46dc6e7fe0d34d
+      internalID: -7727951578121659346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_1
+      name: G Coin Emission Sheet Large_1
       rect:
         serializedVersion: 2
-        x: 250
+        x: 259
         y: 0
-        width: 250
+        width: 241
         height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -193,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd61594d8de41744a9aa5187df519eca
-      internalID: -3578823991387027630
+      spriteID: c3b7422802c020542928de5b4bfea538
+      internalID: 6086567135313722291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_2
+      name: G Coin Emission Sheet Large_2
       rect:
         serializedVersion: 2
         x: 500
@@ -214,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81bf430539fac174ab374d518f326549
-      internalID: -4820396357184268266
+      spriteID: 3b7c71523447b8240b6677dd4c97eff0
+      internalID: 6512429073231301841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_3
+      name: G Coin Emission Sheet Large_3
       rect:
         serializedVersion: 2
         x: 750
@@ -235,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 171ba444025a36c46a9e979478ee111d
-      internalID: 5193390790643143292
+      spriteID: ea7c095004779c64b90156576e195503
+      internalID: -6528947725309954882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_4
+      name: G Coin Emission Sheet Large_4
       rect:
         serializedVersion: 2
         x: 1000
@@ -256,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef79d0655391d64faa082e032612901
-      internalID: 2461459980115967323
+      spriteID: 2463d26361657b0439fafa143d334863
+      internalID: -9020434195777211724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_5
+      name: G Coin Emission Sheet Large_5
       rect:
         serializedVersion: 2
         x: 1250
@@ -277,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6c16811c0e4c9b499dec874ed7c5436
-      internalID: 3744563113436867450
+      spriteID: 193b22970069d5449bf62a7e4861b452
+      internalID: 286659218835899800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_6
+      name: G Coin Emission Sheet Large_6
       rect:
         serializedVersion: 2
         x: 1500
@@ -298,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 421e42baa34c35c4282892a376c389ef
-      internalID: 1184558857465635506
+      spriteID: 83b8a449827b2be4eb4c1789bb130544
+      internalID: 5243480981442750473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_7
+      name: G Coin Emission Sheet Large_7
       rect:
         serializedVersion: 2
         x: 1750
@@ -319,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 867d7404ad1437f47ad8995f17ce932a
-      internalID: -5154500935540713857
+      spriteID: 9d6d4fc89213b8e4e927ea18ee70ba5b
+      internalID: 5443331349475698524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_8
+      name: G Coin Emission Sheet Large_8
       rect:
         serializedVersion: 2
         x: 2000
@@ -340,19 +328,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85c6f0a31436b2c42b5444a2b65cb004
-      internalID: 887262815595666970
+      spriteID: a5f59fff0bf540142a847567dc8de314
+      internalID: -4999622702696831016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_9
+      name: G Coin Emission Sheet Large_9
       rect:
         serializedVersion: 2
-        x: 2250
+        x: 2257
         y: 0
-        width: 247
+        width: 232
         height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -361,19 +349,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b975eaf8a0503bc4e94f02f4969689c2
-      internalID: 8656308606624233633
+      spriteID: de666bd316323374a9ead8a07cbd4015
+      internalID: -532808333120050872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_10
+      name: G Coin Emission Sheet Large_10
       rect:
         serializedVersion: 2
-        x: 2497
+        x: 2492
         y: 0
-        width: 255
+        width: 267
         height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -382,20 +370,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a01546e24b2021c439ad011d4278d1fa
-      internalID: 8172934364356933991
+      spriteID: 87987dadd1aad1246bb06420d2855ecc
+      internalID: -2063485340545609919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_11
+      name: G Coin Emission Sheet Large_11
       rect:
         serializedVersion: 2
-        x: 2752
-        y: 0
-        width: 248
-        height: 250
+        x: 2759
+        y: 1
+        width: 241
+        height: 249
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 534d649e65a027e489fadc5f0c94e877
-      internalID: -1750049882904082912
+      spriteID: 69763698c9b75104d8569fc1a3afb022
+      internalID: 7952465219931659970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_12
+      name: G Coin Emission Sheet Large_12
       rect:
         serializedVersion: 2
         x: 3000
@@ -424,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5097b968fa552e849ad8ead971e35a93
-      internalID: -585587594220336139
+      spriteID: 0e2e4a0799a58084a8eca1b1897feacb
+      internalID: -306212495040174764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_13
+      name: G Coin Emission Sheet Large_13
       rect:
         serializedVersion: 2
         x: 3250
@@ -445,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f4b080cea89a9b4b8eb007a85df1f41
-      internalID: 7538191749557947465
+      spriteID: a5769ffcd54efd2439ebc0fe84bd58fa
+      internalID: 8583258124210356117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_14
+      name: G Coin Emission Sheet Large_14
       rect:
         serializedVersion: 2
         x: 3500
@@ -466,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5412fbaf1655948aabe636f2b870a0
-      internalID: -2063447582998505495
+      spriteID: 31579dac66e8ae1429ce7e1c64faffbe
+      internalID: -8032041116641774491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_15
+      name: G Coin Emission Sheet Large_15
       rect:
         serializedVersion: 2
         x: 3750
@@ -487,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7c2b31ecf48d7e47aeb760af44da0c0
-      internalID: -1658162246299317013
+      spriteID: bdb08c4784e3f064fab032663589686c
+      internalID: -547135243356996524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_16
+      name: G Coin Emission Sheet Large_16
       rect:
         serializedVersion: 2
         x: 4000
@@ -508,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 201501ef0991b24489333d7f0c6c4aaf
-      internalID: 5650075433938833739
+      spriteID: c93e7de1d3821d943abc2b3dec491d3a
+      internalID: -2803675096045550285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_17
+      name: G Coin Emission Sheet Large_17
       rect:
         serializedVersion: 2
         x: 4250
@@ -529,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84e79b287b297db439eec8fef845ba05
-      internalID: 9018750377029222832
+      spriteID: e326cbc5edbd94f4991c13264ef6223f
+      internalID: 2344700980520472394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_18
+      name: G Coin Emission Sheet Large_18
       rect:
         serializedVersion: 2
         x: 4500
@@ -550,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f70ce04bd49e74f9f63aa9b663ddb7
-      internalID: -450921276529941135
+      spriteID: b54cd292511e2734f8278ea8999d8812
+      internalID: -5204610641025359466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G coin 2 Sheet-LARGE_19
+      name: G Coin Emission Sheet Large_19
       rect:
         serializedVersion: 2
         x: 4750
@@ -571,8 +559,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a34550a5b3537714ea4a71d64fa686ce
-      internalID: -508941717978132810
+      spriteID: bc53497e1fe38ad4182c60e7542e7bf3
+      internalID: 2702555998196930207
       vertices: []
       indices: 
       edges: []
@@ -586,9 +574,7 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: a75876e28e9bad049a8afc0679b32d36, type: 3}
-      name: _Emission
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
