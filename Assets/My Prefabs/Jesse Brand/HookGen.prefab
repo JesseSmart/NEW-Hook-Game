@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20eefedd741a83c4794e58901a609101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hookPointObj: {fileID: 7538972715564050807, guid: 7f9be927e260fad489b8223373926bb8,
+  hookPointObj: {fileID: 7538972715564050807, guid: 2ea82bab61be5834086202312efe41b0,
     type: 3}
   hookLanternPointObj: {fileID: 7538972715564050807, guid: 7f9be927e260fad489b8223373926bb8,
     type: 3}
