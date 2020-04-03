@@ -156,7 +156,7 @@ MonoBehaviour:
   jumpForce: 600
   hookForce: 200
   verticalHookForce: 0
-  hookRange: 5
+  hookRange: 8
   deathObj: {fileID: 1311340665535996394, guid: 3f6354f63d99a2f4ba3dd1178e3f176c,
     type: 3}
   hookPointSprites:

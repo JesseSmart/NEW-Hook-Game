@@ -48,6 +48,8 @@ MonoBehaviour:
   foreGroundImage: {fileID: 21300000, guid: 665445e6235bc1c42ad2add7866459d1, type: 3}
   midGroundImage: {fileID: 21300000, guid: 5ee591d582ab43d44a6674b57cdd3e40, type: 3}
   backGroundImage: {fileID: 21300000, guid: e18185748aa88c9489a06505a212dfbf, type: 3}
+  floorImage: {fileID: 21300000, guid: dc5232117923e1343af6ba98db65fd3f, type: 3}
   forGroundNum: 1
   midGroundNum: 2
   backGroundNum: 3
+  floorOffset: -10

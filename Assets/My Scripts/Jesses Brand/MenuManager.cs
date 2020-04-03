@@ -40,6 +40,13 @@ public class MenuManager : MonoBehaviour
 		PanelManager(false, false, false, true);
 	}
 
+	public void ToInfinite()
+	{
+		SceneManager.LoadScene("JesseNewInfinite");
+	}
+
+
+
 	public void BackToMenuClicked()
 	{
 		PanelManager(true, false, false, false);
