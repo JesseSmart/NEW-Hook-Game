@@ -65,4 +65,9 @@ public class MenuManager : MonoBehaviour
 		SceneManager.LoadScene("JesseLevel" + levelNum);
 	}
 
+	public void SetCharacter(int i)
+	{
+		PlayerPrefs.SetInt("CharacterNum", i);
+	}
+
 }

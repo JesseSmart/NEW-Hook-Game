@@ -47,6 +47,8 @@ public class PlayerMaster : MonoBehaviour
 	[HideInInspector]
 	public bool haveStarted;
 
+	//public Animator animList;
+	public RuntimeAnimatorController[] charAnimList;
 
 	//Audio
 	[Header("Audio")]
@@ -79,6 +81,7 @@ public class PlayerMaster : MonoBehaviour
 		//sRenderer = GetComponent<SpriteRenderer>();
 		//sRenderer.sprite = sprRightSwing;
 		anim = GetComponentInChildren<Animator>();
+		anim.runtimeAnimatorController = charAnimList[PlayerPrefs.GetInt("CharacterNum")];
 		mainManager = FindObjectOfType<MainManager>();
 		yValLastFrame = gameObject.transform.position.y;
 
