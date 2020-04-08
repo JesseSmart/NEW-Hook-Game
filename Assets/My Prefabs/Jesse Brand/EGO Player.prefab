@@ -164,8 +164,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 982b66e90a77f0749b8a8fa5eac8c5f6, type: 3}
   - {fileID: 21300000, guid: 4ad44216cfeb1d444a9a0290628eae34, type: 3}
   haveStarted: 0
-  animList:
+  charAnimList:
   - {fileID: 9100000, guid: b2b020ab617e8914aa66c484feea106d, type: 2}
+  - {fileID: 9100000, guid: 3da001a63143f5344af36058fefa3f05, type: 2}
   fallDeathAudio: {fileID: 0}
   collideDeathAudio: {fileID: 0}
   lineColour: {r: 1, g: 0, b: 0.9708805, a: 0.87058824}
