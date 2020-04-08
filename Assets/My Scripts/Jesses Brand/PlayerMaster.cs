@@ -52,6 +52,7 @@ public class PlayerMaster : MonoBehaviour
 
 	//Audio
 	[Header("Audio")]
+	private AudioManager audMan;
 	public AudioClip fallDeathAudio;
 	public AudioClip collideDeathAudio;
 
@@ -85,6 +86,9 @@ public class PlayerMaster : MonoBehaviour
 		anim.runtimeAnimatorController = charAnimList[PlayerPrefs.GetInt("CharacterNum")];
 		mainManager = FindObjectOfType<MainManager>();
 		yValLastFrame = gameObject.transform.position.y;
+
+		//Audio
+		audMan = FindObjectOfType<AudioManager>();
 
 		//Line Rendering
 		lineR.material.color = lineColour;
