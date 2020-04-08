@@ -69,6 +69,7 @@ public class PlayerMaster : MonoBehaviour
 	public int tileAmount;
 	private GameObject lastHookPoint;
 	#endregion
+	public float lineZOffset;
 
 	// Start is called before the first frame update
 	void Start()
@@ -445,8 +446,8 @@ public class PlayerMaster : MonoBehaviour
 
 		//lineR.SetPosition(0, position1.position);
 
-		Vector3 pos1 = new Vector3(transform.position.x, transform.position.y, -20);
-		position2.position = new Vector3(position2.position.x, position2.position.y, -20);
+		Vector3 pos1 = new Vector3(transform.position.x, transform.position.y, lineZOffset);
+		position2.position = new Vector3(position2.position.x, position2.position.y, -lineZOffset);
 
 		lineR.SetPosition(0, pos1);
 		lineR.SetPosition(1, position2.position);

@@ -1111,6 +1111,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3687943823861959823, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
+        type: 3}
+      propertyPath: lineZOffset
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 6431933134776216256, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
         type: 3}
       propertyPath: m_Constraints

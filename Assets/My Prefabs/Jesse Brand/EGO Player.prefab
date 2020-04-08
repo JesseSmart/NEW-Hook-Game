@@ -156,7 +156,7 @@ MonoBehaviour:
   jumpForce: 600
   hookForce: 200
   verticalHookForce: 0
-  hookRange: 8
+  hookRange: 15
   deathObj: {fileID: 1311340665535996394, guid: 3f6354f63d99a2f4ba3dd1178e3f176c,
     type: 3}
   hookPointSprites:
@@ -172,6 +172,7 @@ MonoBehaviour:
   lineColour: {r: 1, g: 0, b: 0.9708805, a: 0.87058824}
   myMaterial: {fileID: 0}
   tileAmount: 0
+  lineZOffset: -20
 --- !u!120 &3087945853907427403
 LineRenderer:
   m_ObjectHideFlags: 0
