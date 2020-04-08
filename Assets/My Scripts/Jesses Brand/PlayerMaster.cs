@@ -52,7 +52,7 @@ public class PlayerMaster : MonoBehaviour
 
 	//Audio
 	[Header("Audio")]
-	private AudioManager audMan;
+	private AudioManager audM;
 	public AudioClip fallDeathAudio;
 	public AudioClip collideDeathAudio;
 
@@ -88,7 +88,7 @@ public class PlayerMaster : MonoBehaviour
 		yValLastFrame = gameObject.transform.position.y;
 
 		//Audio
-		audMan = FindObjectOfType<AudioManager>();
+		audM = FindObjectOfType<AudioManager>();
 
 		//Line Rendering
 		lineR.material.color = lineColour;
@@ -164,6 +164,7 @@ public class PlayerMaster : MonoBehaviour
 				{
 					rb.AddForce(Vector2.up * verticalHookForce);
 					StartSwing();
+					audM.audioS.PlayOneShot(audM.sounds[0].clip);
 				}				
 			}
 		}

@@ -11,8 +11,13 @@ public class AudioManager : MonoBehaviour
 
 	public Sound[] sounds;
 
+	[HideInInspector]
+	public AudioSource audioS;
+
 	void Awake()
 	{
+		audioS = GetComponent<AudioSource>();
+
 		if (instance != null)
 		{
 			Destroy(gameObject);
