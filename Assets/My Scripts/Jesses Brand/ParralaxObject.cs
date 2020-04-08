@@ -6,7 +6,8 @@ public class ParralaxObject : MonoBehaviour
 {
 
 	private GameObject playerObj;
-	private Vector3 playerStart;
+	[HideInInspector]
+	public Vector3 playerStart;
 	private Vector3 myStartPos;
 	public float parralaxLayer;
 
@@ -16,7 +17,7 @@ public class ParralaxObject : MonoBehaviour
     void Start()
     {
 		playerObj = FindObjectOfType<PlayerMaster>().gameObject;
-		playerStart = playerObj.transform.position;
+		//playerStart = playerObj.transform.position;
 		myStartPos = transform.position;
 		parralaxLayerSpeed = 1 + (0.4f * parralaxLayer);
 
