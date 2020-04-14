@@ -157,7 +157,8 @@ public class PlayerMaster : MonoBehaviour
 				{
 					//Jump();
 
-					StartCoroutine(DelayedJumpAndHook(1f));
+					//StartCoroutine(DelayedJumpAndHook(1f));
+					Jump();
 				}
 
 				if (myState == PlayerState.Flying)
