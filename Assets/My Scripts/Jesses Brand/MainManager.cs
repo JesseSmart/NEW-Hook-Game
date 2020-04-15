@@ -13,6 +13,7 @@ public class MainManager : MonoBehaviour
 	private CameraController cameraCon;
 
 	public GameObject pnlPause;
+	public GameObject pnlWin;
 
 	public float bronzeTime;
 	public float silverTime;
@@ -112,7 +113,8 @@ public class MainManager : MonoBehaviour
 	public void PlayerDeath()
 	{
 		//StartCoroutine(DelayedPlayerDeath(2f));
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		pnlWin.SetActive(true);
 	}
 
 	IEnumerator DelayedPlayerDeath(float delay)

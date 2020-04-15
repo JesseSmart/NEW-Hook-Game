@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -151,6 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe9b80f1a489274da67635b8614e560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObj: {fileID: 0}
+  playerStart: {x: 0, y: 0, z: 0}
   parralaxLayer: 1
 --- !u!212 &44952638
 SpriteRenderer:
@@ -550,6 +552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe9b80f1a489274da67635b8614e560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObj: {fileID: 0}
+  playerStart: {x: 0, y: 0, z: 0}
   parralaxLayer: 3
 --- !u!212 &657047407
 SpriteRenderer:
@@ -912,6 +916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe9b80f1a489274da67635b8614e560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObj: {fileID: 0}
+  playerStart: {x: 0, y: 0, z: 0}
   parralaxLayer: 3
 --- !u!212 &1745870514
 SpriteRenderer:
@@ -1323,6 +1329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: isNight
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314296815608485823, guid: fe4833f08aaa5f74c8ffbf8b17149351,
+        type: 3}
+      propertyPath: pnlLose
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3168642425561284335, guid: fe4833f08aaa5f74c8ffbf8b17149351,
         type: 3}
