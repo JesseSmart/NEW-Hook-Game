@@ -10,7 +10,7 @@ public class HookGenerator : MonoBehaviour
 
 	public int hookGap;
 
-	private GameObject playerObj;
+	public GameObject playerObj;
 	private Vector3 startPos;
 
 	public float verticalVar;

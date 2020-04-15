@@ -165,7 +165,7 @@ public class PlayerMaster : MonoBehaviour
 				{
 					rb.AddForce(Vector2.up * verticalHookForce);
 					StartSwing();
-					audM.audioS.PlayOneShot(audM.sounds[0].clip);
+					//audM.audioS.PlayOneShot(audM.sounds[0].clip);
 				}				
 			}
 		}

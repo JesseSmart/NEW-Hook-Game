@@ -6,7 +6,7 @@ public class ParralaxSpawner : MonoBehaviour
 {
 
 	//public GameObject foreGroundObj;
-	private GameObject playerObj;
+	public GameObject playerObj;
 	[HideInInspector]
 	public Vector3 playerStartPos;
 
@@ -82,10 +82,11 @@ public class ParralaxSpawner : MonoBehaviour
 	IEnumerator DoSpawn(Sprite mySprite, float layer, int sort, float yOffset, int ind)
 	{
 		yield return new WaitForSeconds(1f);
-
 		//Vector3 spawnVec = new Vector3(transform.position.x + (mySprite.bounds.extents.x * 2 * ind), transform.position.y + yOffset, transform.position.z);
 		Vector3 spawnVec = new Vector3(transform.position.x + (mySprite.bounds.extents.x * 2 * ind), transform.position.y + yOffset, transform.position.z);
+		
 		GameObject currentSpawn = Instantiate(spriteHolder, spawnVec, transform.rotation);
+		currentSpawn.GetComponent<ParralaxObject>().playerObj = FindObjectOfType<PlayerMaster>().gameObject;
 		currentSpawn.GetComponentInChildren<SpriteRenderer>().sprite = mySprite;
 		currentSpawn.GetComponentInChildren<SpriteRenderer>().sortingOrder = sort;
 		currentSpawn.GetComponent<ParralaxObject>().parralaxLayer = layer;

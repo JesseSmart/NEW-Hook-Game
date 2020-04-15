@@ -5,7 +5,7 @@ using UnityEngine;
 public class ParralaxObject : MonoBehaviour
 {
 
-	private GameObject playerObj;
+	public GameObject playerObj;
 	[HideInInspector]
 	public Vector3 playerStart;
 	private Vector3 myStartPos;
@@ -27,6 +27,10 @@ public class ParralaxObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		transform.position = new Vector3(myStartPos.x - (playerObj.transform.position.x * parralaxLayerSpeed), transform.position.y, transform.position.z);
+		if (playerObj != null)
+		{
+			transform.position = new Vector3(myStartPos.x - (playerObj.transform.position.x * parralaxLayerSpeed), transform.position.y, transform.position.z);
+
+		}
     }
 }

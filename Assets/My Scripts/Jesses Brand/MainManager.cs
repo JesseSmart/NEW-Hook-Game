@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class MainManager : MonoBehaviour
 {
 
@@ -111,15 +111,28 @@ public class MainManager : MonoBehaviour
 
 	public void PlayerDeath()
 	{
-		StartCoroutine(DelayedPlayerDeath(2f));
-
+		//StartCoroutine(DelayedPlayerDeath(2f));
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
 	IEnumerator DelayedPlayerDeath(float delay)
 	{
+
 		yield return new WaitForSeconds(delay);
 		GameObject spawnedPlayer = Instantiate(playerSpawnedObj, spawnPoint.transform.position, transform.rotation);
-		cameraCon.targetObject = spawnedPlayer;
+
+
+		//Reassignage
+		//playerObj = spawnedPlayer;
+		//cameraCon.targetObject = spawnedPlayer;
+
+		//foreach (ParralaxObject po in FindObjectsOfType<ParralaxObject>())
+		//{
+		//	po.playerObj = spawnedPlayer;
+		//}
+
+		//FindObjectOfType<HookGenerator>().playerObj = spawnedPlayer;
+
 
 	}
 
