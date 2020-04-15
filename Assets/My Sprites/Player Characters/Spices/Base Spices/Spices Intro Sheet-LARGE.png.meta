@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: e409beb54663ee94d807a7eb9e2283ac
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8651455714219491510
+    second: Spices Intro Sheet-LARGE_0
+  - first:
+      213: -7468523240667924834
+    second: Spices Intro Sheet-LARGE_1
+  - first:
+      213: 2740775120355378290
+    second: Spices Intro Sheet-LARGE_2
+  - first:
+      213: 4388478971178914155
+    second: Spices Intro Sheet-LARGE_3
+  - first:
+      213: -3623454047340855178
+    second: Spices Intro Sheet-LARGE_4
+  - first:
+      213: -3935221437915251145
+    second: Spices Intro Sheet-LARGE_5
+  - first:
+      213: 8933901151863971052
+    second: Spices Intro Sheet-LARGE_6
+  - first:
+      213: 4029949335239734638
+    second: Spices Intro Sheet-LARGE_7
+  - first:
+      213: 7743070708677344614
+    second: Spices Intro Sheet-LARGE_8
+  - first:
+      213: 6758958935090684395
+    second: Spices Intro Sheet-LARGE_9
+  - first:
+      213: 5450040069103714576
+    second: Spices Intro Sheet-LARGE_10
+  - first:
+      213: 6743163144480350495
+    second: Spices Intro Sheet-LARGE_11
+  - first:
+      213: 5407977465917765937
+    second: Spices Intro Sheet-LARGE_12
+  - first:
+      213: 6135612492954111344
+    second: Spices Intro Sheet-LARGE_13
+  - first:
+      213: 358321688520548296
+    second: Spices Intro Sheet-LARGE_14
+  - first:
+      213: 7818169011880234359
+    second: Spices Intro Sheet-LARGE_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,7 +144,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ad5147e2c767e4692490231c18d7a9
+      internalID: 8651455714219491510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee891c71929a7c408cf3fb061bf7530
+      internalID: -7468523240667924834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_2
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6125050f70442418829fe18b105205
+      internalID: 2740775120355378290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_3
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8897569fed2d34844a647de85bb61ace
+      internalID: 4388478971178914155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_4
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aea7f37ffa2fae4096eb8a74776ba6f
+      internalID: -3623454047340855178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_5
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fc3cf69f1fc7d4ea6b5b5a8d27aa76
+      internalID: -3935221437915251145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_6
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd82b86b70231d4eba5b545397ae831
+      internalID: 8933901151863971052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_7
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cda3c70805e90e4794067aafb1c1ab0
+      internalID: 4029949335239734638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_8
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb06aceb3b749b244b54fe25ed85a875
+      internalID: 7743070708677344614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_9
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768cbbcb263d2cd4eaa1416786bb0a8f
+      internalID: 6758958935090684395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_10
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c0e0d48c1bf3c4ab8deb01228fef87
+      internalID: 5450040069103714576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_11
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8166ffd55935f7e42a5d29cd5c3b6386
+      internalID: 6743163144480350495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_12
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a395966762cafd448a46a8d2133d802
+      internalID: 5407977465917765937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_13
+      rect:
+        serializedVersion: 2
+        x: 6370
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5357bc283a2778e42a6e66a4deadaa66
+      internalID: 6135612492954111344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_14
+      rect:
+        serializedVersion: 2
+        x: 6860
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc025a4911345a4459bec53e70181dea
+      internalID: 358321688520548296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Intro Sheet-LARGE_15
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cd0b10ea380e34d8174ca8e9aeb6d2
+      internalID: 7818169011880234359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
