@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 168a248bdfd60ef43a2a8b2fa5bb342f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7814102322356548575
+    second: Spices Outro Sheet-LARGE_0
+  - first:
+      213: -5104311939775813236
+    second: Spices Outro Sheet-LARGE_1
+  - first:
+      213: -7949809239431875696
+    second: Spices Outro Sheet-LARGE_2
+  - first:
+      213: 458447212262917668
+    second: Spices Outro Sheet-LARGE_3
+  - first:
+      213: -4851631657341649646
+    second: Spices Outro Sheet-LARGE_4
+  - first:
+      213: 8463563029888305979
+    second: Spices Outro Sheet-LARGE_5
+  - first:
+      213: 7014333949727523334
+    second: Spices Outro Sheet-LARGE_6
+  - first:
+      213: -1039298527090472815
+    second: Spices Outro Sheet-LARGE_7
+  - first:
+      213: 6463205526040601252
+    second: Spices Outro Sheet-LARGE_8
+  - first:
+      213: -2025949566821443364
+    second: Spices Outro Sheet-LARGE_9
+  - first:
+      213: -6923768869244581970
+    second: Spices Outro Sheet-LARGE_10
+  - first:
+      213: 3654031182413059198
+    second: Spices Outro Sheet-LARGE_11
+  - first:
+      213: -6865152797267338198
+    second: Spices Outro Sheet-LARGE_12
+  - first:
+      213: 7288716859855850791
+    second: Spices Outro Sheet-LARGE_13
+  - first:
+      213: -6419962399005955191
+    second: Spices Outro Sheet-LARGE_14
+  - first:
+      213: 6852367471433581691
+    second: Spices Outro Sheet-LARGE_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,7 +144,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb60504c8aa1b1f46be52076991d6618
+      internalID: 7814102322356548575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1c4ec4be75a414fa2a35f4d993fbf3
+      internalID: -5104311939775813236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_2
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26ff4026c553e3468e4388e05f13199
+      internalID: -7949809239431875696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_3
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9a00a062cdf9245919b9764504cf7d
+      internalID: 458447212262917668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_4
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acccf5b72480a314d8464cbeca2aa3b8
+      internalID: -4851631657341649646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_5
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1168f903da96471408f2720eb9e65aba
+      internalID: 8463563029888305979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_6
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4451ce2579096f141aeeed442d9bfcb5
+      internalID: 7014333949727523334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_7
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baf2def75e8e5a429bf4b53d91e33b1
+      internalID: -1039298527090472815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_8
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6b37178450229498f545e97ee0d7f3
+      internalID: 6463205526040601252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_9
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0c676b801aa7f459a02f5922bab7e6
+      internalID: -2025949566821443364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_10
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600433a8a7f4e844ba1a7a6421ab6f6a
+      internalID: -6923768869244581970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_11
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7467e4398da769e489dddc75f1c4ae10
+      internalID: 3654031182413059198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_12
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686d039fec8f94f4c848a2ae92aa40e6
+      internalID: -6865152797267338198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_13
+      rect:
+        serializedVersion: 2
+        x: 6370
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b981518a7a52c4db8aadeb38335313
+      internalID: 7288716859855850791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_14
+      rect:
+        serializedVersion: 2
+        x: 6860
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc75a02c816e79347a271dcf5939d0ef
+      internalID: -6419962399005955191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spices Outro Sheet-LARGE_15
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 0
+        width: 490
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f4c941319a98141b980c7e9e702d93
+      internalID: 6852367471433581691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
