@@ -21,6 +21,9 @@ public class SingleParralax : MonoBehaviour
 	public float floorOffset;
 	private float closestX = 0;
 
+	public float zOffset;
+	public int renderLayer;
+
 	private float spawnWaitDur = 1;
 	private float waitTimer;
 
@@ -30,7 +33,7 @@ public class SingleParralax : MonoBehaviour
 		playerObj = FindObjectOfType<PlayerMaster>().gameObject;
 		nextStartX = Mathf.RoundToInt(transform.position.x);
 
-		SpawnLoop(sprite, 10, 1, 1, 0);
+		SpawnLoop(sprite, 10, renderLayer, 1, floorOffset);
 	}
 
 	// Update is called once per frame
@@ -38,14 +41,16 @@ public class SingleParralax : MonoBehaviour
 	{
 		float dist = Mathf.Abs(closestX - playerObj.transform.position.x);
 		waitTimer -= Time.deltaTime;
-		print("Closestx " + closestX);
+		//print("Closestx " + closestX);
 		if (waitTimer <= 0) //this is where issue is. 'dist' needs to be calculated better/correctly
 		{
-			SpawnLoop(sprite, 10, 1, 1, 0);
+			SpawnLoop(sprite, 10, renderLayer, 1, floorOffset);
 
 
 			waitTimer = spawnWaitDur;
 		}
+
+		
 	}
 
 
@@ -53,15 +58,15 @@ public class SingleParralax : MonoBehaviour
 	{
 		for (int i = 0; i < amount; i++)
 		{
-			Vector3 spawnVec = new Vector3(nextStartX + (mySprite.bounds.extents.x * 2 * i) , transform.position.y + yOffset, transform.position.z);
+			Vector3 spawnVec = new Vector3(nextStartX + (mySprite.bounds.extents.x * 2 * i) , transform.position.y + yOffset, transform.position.z + zOffset);
 			GameObject currentSpawn = Instantiate(spriteHolder, spawnVec, transform.rotation);
+
 			currentSpawn.GetComponentInChildren<SpriteRenderer>().sprite = mySprite;
 			currentSpawn.GetComponentInChildren<SpriteRenderer>().sortingOrder = sort;
 			currentSpawn.GetComponent<ParralaxObject>().parralaxLayer = layer;
-
 			currentSpawn.GetComponent<ParralaxObject>().playerStart = playerStartPos; //newaddition
 			totalPlacements++;
-			print("totalPlace " + totalPlacements);
+			//print("totalPlace " + totalPlacements);
 		}
 		timesRan++;
 		nextStartX = Mathf.RoundToInt(playerStartPos.x + (mySprite.bounds.extents.x * 2 * totalPlacements));

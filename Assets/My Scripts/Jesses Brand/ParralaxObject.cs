@@ -10,6 +10,7 @@ public class ParralaxObject : MonoBehaviour
 	public Vector3 playerStart;
 	private Vector3 myStartPos;
 	public float parralaxLayer;
+	[HideInInspector]
 
 	private float parralaxLayerSpeed;
 
@@ -19,7 +20,7 @@ public class ParralaxObject : MonoBehaviour
 		playerObj = FindObjectOfType<PlayerMaster>().gameObject;
 		//playerStart = playerObj.transform.position;
 		myStartPos = transform.position;
-		parralaxLayerSpeed = 1 + (0.4f * parralaxLayer);
+		parralaxLayerSpeed = 1 + (0.1f * parralaxLayer);
 
 	
     }
@@ -31,6 +32,11 @@ public class ParralaxObject : MonoBehaviour
 		{
 			transform.position = new Vector3(myStartPos.x - (playerObj.transform.position.x * parralaxLayerSpeed), transform.position.y, transform.position.z);
 
+		}
+
+		if (transform.position.x + 40 < playerObj.transform.position.x)
+		{
+			Destroy(gameObject);
 		}
     }
 }
