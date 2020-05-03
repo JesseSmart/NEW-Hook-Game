@@ -13,9 +13,11 @@ public class PlayerMaster : MonoBehaviour
 	}
 
 	[Header("Movement")]
+	[HideInInspector]
 	public PlayerState myState;
 
 	public KeyCode hookButton;
+	[HideInInspector]
 	public bool doMovement;
 	public float speedMod;
 

@@ -8,15 +8,20 @@ public class MainManager : MonoBehaviour
 
 	private GameObject playerObj;
 
-	public GameObject playerSpawnedObj;
-	private GameObject spawnPoint;
+	//public GameObject playerSpawnedObj;
+	//private GameObject spawnPoint;
 	private CameraController cameraCon;
 
+	[HideInInspector]
 	public GameObject pnlPause;
+	[HideInInspector]
 	public GameObject pnlWin;
 
+	[HideInInspector]
 	public float bronzeTime;
+	[HideInInspector]
 	public float silverTime;
+	[HideInInspector]
 	public float goldTime;
 	private float levelTimer;
 	private float introTimer = 3;
@@ -39,7 +44,9 @@ public class MainManager : MonoBehaviour
     {
 		playerObj = FindObjectOfType<PlayerMaster>().gameObject;
 		cameraCon = FindObjectOfType<CameraController>();
-		spawnPoint = GameObject.Find("EGO SpawnPoint");
+
+		pnlPause = GameObject.Find("PausePanel");
+		pnlWin = GameObject.Find("Win Panel");
 
 		introTimerDisplay = GameObject.Find("Intro Timer").GetComponent<Text>();
 		levelTimerDisplay = GameObject.Find("Level Timer Display").GetComponent<Text>();
@@ -112,31 +119,10 @@ public class MainManager : MonoBehaviour
 
 	public void PlayerDeath()
 	{
-		//StartCoroutine(DelayedPlayerDeath(2f));
-		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		pnlWin.SetActive(true);
 	}
 
-	IEnumerator DelayedPlayerDeath(float delay)
-	{
 
-		yield return new WaitForSeconds(delay);
-		GameObject spawnedPlayer = Instantiate(playerSpawnedObj, spawnPoint.transform.position, transform.rotation);
-
-
-		//Reassignage
-		//playerObj = spawnedPlayer;
-		//cameraCon.targetObject = spawnedPlayer;
-
-		//foreach (ParralaxObject po in FindObjectsOfType<ParralaxObject>())
-		//{
-		//	po.playerObj = spawnedPlayer;
-		//}
-
-		//FindObjectOfType<HookGenerator>().playerObj = spawnedPlayer;
-
-
-	}
 
 	void PauseBehaviour()
 	{

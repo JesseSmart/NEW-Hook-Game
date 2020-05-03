@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7467890370886099041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -48,4 +48,5 @@ MonoBehaviour:
   hookLanternPointObj: {fileID: 7538972715564050807, guid: 7f9be927e260fad489b8223373926bb8,
     type: 3}
   hookGap: 10
+  playerObj: {fileID: 0}
   verticalVar: 1.5

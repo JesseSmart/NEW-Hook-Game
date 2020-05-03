@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5387847601731279356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.357529, y: -6.119215, z: -48.0955}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43,9 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f51dc3f66d01f7e47ac25eeebcbcbb00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpawnedObj: {fileID: 7911750794839412081, guid: 0f3c4dfd94d6e5542a99b33ee7e616c8,
-    type: 3}
   pnlPause: {fileID: 0}
+  pnlWin: {fileID: 0}
   bronzeTime: 0
   silverTime: 0
   goldTime: 0

@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PauseManager : MonoBehaviour
 {
 
-	public GameObject pnlPause;
+	//public GameObject pnlPause;
 
 	private bool audioOn;
     // Start is called before the first frame update
@@ -25,13 +25,13 @@ public class PauseManager : MonoBehaviour
 	public void Resume()
 	{
 		Time.timeScale = 1f;
-		pnlPause.SetActive(false);
+		gameObject.SetActive(false);
 	}
 
 	public void BackToMenu()
 	{
 		Time.timeScale = 1f;
-		pnlPause.SetActive(false);
+		gameObject.SetActive(false);
 		SceneManager.LoadScene("JesseMainMenu");
 	}
 
